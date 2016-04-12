@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/item_main_lay_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/seasons_clockweather41_bg_fall"
+        android:orientation="horizontal"
+         >
+
+        <LinearLayout
+            android:layout_marginLeft="65dp"
+        	android:paddingTop="8dp"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/item_main_muisc_tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="love you for ever"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/item_main_muisc_tv_creater"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="作者：pz"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/item_main_music_iv"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/bg_zjl_1"
+         />
+
+</FrameLayout>

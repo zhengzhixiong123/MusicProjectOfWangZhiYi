@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+    <config name="welcome_time">3000</config>
+</configs>
