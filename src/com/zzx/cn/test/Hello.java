@@ -11,6 +11,6 @@ public class Hello extends Activity {
 		super.onCreate(savedInstanceState);
 		System.out.println("hahahhahahhah");
 		System.out.println("zhengssss");
-		System.out.println("sky ....");
+		System.out.println("sky .a...");
 	}
 }
