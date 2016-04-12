@@ -12,5 +12,6 @@ public class Hello extends Activity {
 		System.out.println("hahahhahahhah");
 		System.out.println("zhengssss");
 		System.out.println("sky .a...");
+		System.out.println("s");
 	}
 }
