@@ -10,6 +10,7 @@ public class Hello extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		System.out.println("hahahhahahhah");
-		System.out.println("zheng");
+		System.out.println("zhengss");
+		
 	}
 }
